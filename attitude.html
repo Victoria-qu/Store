@@ -70,6 +70,59 @@
             text-decoration: none;
             border-bottom: 2px solid var(--pink);
         }
+   .diary-section {
+    margin: 60px auto;
+    padding: 20px;
+    max-width: 600px;
+}
+
+.diary-frame {
+    border: 1px solid var(--black);
+    padding: 30px;
+    position: relative;
+    background-color: #fffafb; /* 淡淡的奶油粉色 */
+    box-shadow: 10px 10px 0px var(--pink); /* 復古的位移陰影 */
+}
+
+.diary-frame::before {
+    content: "“";
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    font-size: 4rem;
+    color: var(--pink);
+    font-family: serif;
+}
+
+.diary-date {
+    display: block;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #888;
+    text-align: center;
+}
+
+.diary-text {
+    font-family: serif;
+    font-style: italic;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: justify;
+    color: var(--black);
+}
+
+.diary-signature {
+    text-align: right;
+    margin-top: 20px;
+    font-family: "Apple Chancery", cursive;
+    font-size: 1.2rem;
+    border-top: 1px solid var(--pink);
+    display: block;
+    padding-top: 10px;
+}
+    
     </style>
 </head>
 <body>
@@ -102,7 +155,15 @@
     </div>
 
     <a href="index.html" class="back-btn">← 返回首頁</a>
-
+<div class="diary-section">
+    <div class="diary-frame">
+        <span class="diary-date">1837年6月20日 — 登基當日</span>
+        <p class="diary-text">
+            「既然上帝已將我置於這個位置，我將盡我所能，履行我對國家的職責。我很年輕，在許多方面可能缺乏經驗，但我相信我的意願是真誠的。」
+        </p>
+        <div class="diary-signature">Victoria R.</div>
+    </div>
+</div>
 </div>
 
 </body>

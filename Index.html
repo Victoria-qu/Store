@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queen Victoria | 時尚維多利亞</title>
+    <style>
+        /* 配色方案與字體設定 */
+        :root {
+            --black: #1a1a1a;
+            --pink: #f4d3d9;
+            --white: #ffffff;
+            --grey: #f9f9f9;
+        }
+
+        body {
+            background-color: var(--white);
+            color: var(--black);
+            font-family: "PingFang TC", "Microsoft JhengHei", serif;
+            margin: 0;
+            line-height: 1.8;
+        }
+
+        /* 雜誌風 Header */
+        header {
+            background-color: var(--black);
+            color: var(--white);
+            padding: 60px 20px;
+            text-align: center;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            font-weight: 300;
+        }
+
+        header p {
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+
+        /* 主要內容容器 */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* 型格標題設計 */
+        .section-title {
+            border-left: 8px solid var(--pink);
+            padding-left: 15px;
+            margin: 50px 0 25px 0;
+            font-size: 1.8rem;
+            background: linear-gradient(to right, var(--pink) 0%, transparent 100%);
+            background-repeat: no-repeat;
+            background-size: 100% 20%;
+            background-position: 0 90%;
+        }
+
+        /* 內容區塊 */
+        .content-box {
+            background-color: var(--grey);
+            padding: 30px;
+            border: 1px solid var(--pink);
+            position: relative;
+            margin-bottom: 40px;
+        }
+
+        .highlight-text {
+            color: #d48a94; /* 深粉色作點綴 */
+            font-weight: bold;
+        }
+
+        /* 軼事卡片 */
+        .anecdote {
+            font-style: italic;
+            border: 1px solid var(--black);
+            padding: 20px;
+            margin: 20px 0;
+            background-color: var(--white);
+        }
+
+        /* 底部 */
+        footer {
+            text-align: center;
+            padding: 40px;
+            font-size: 0.8rem;
+            border-top: 1px solid var(--pink);
+            color: #999;
+        }
+
+        /* 按鈕設計 */
+        .btn {
+            display: inline-block;
+            background: var(--black);
+            color: var(--white);
+            padding: 12px 30px;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: var(--pink);
+            color: var(--black);
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>The Victoria Vibe</h1>
+    <p>不只是女王，是定義一個時代的時尚 ICON</p>
+</header>
+
+<div class="container">
+    
+    <h2 class="section-title">01. 少女登基：被禁錮的靈魂</h2>
+    <p>維多利亞並非生來就是「強權者」。她在一個極度嚴苛的監管制度（肯辛頓系統）下長大，直到 18 歲登基的那一天，她做的第一件事就是：<span class="highlight-text">「要求獨自待一小時」</span>。這種對自由的渴望，讓她開啟了長達 63 年的傳奇統治。</p>
+
+    <h2 class="section-title">02. 顛覆傳統的「白色婚禮」</h2>
+    <div class="content-box">
+        <p>你以為新娘穿白紗是理所當然嗎？在維多利亞之前，貴族新娘大多穿紅、紫或金色的禮服。1840 年，維多利亞堅持穿上純白絲緞婚紗，這在當時是<span class="highlight-text">極致奢華的象徵</span>（因為白色難以清洗）。</p>
+        <div class="anecdote">
+            「我從未見過如此美妙的婚禮...」她在日記中寫道。她不僅重新定義了婚禮，還定義了現代女性對浪漫的想像。
+        </div>
+    </div>
+
+    <h2 class="section-title">03. 鮮為人知的「黑衣寡婦」</h2>
+    <p>阿爾伯特親王去世後，維多利亞在餘生 40 年裡只穿黑衣。這種「極簡暗黑風」不僅代表了哀悼，更意外地讓黑色成為了當時社交場合的一種酷與優雅。她的影響力，讓整個大英帝國都隨她一起改變了審美。</p>
+
+    <h2 class="section-title">04. 影響世界的遺產</h2>
+    <ul>
+        <li><strong>歐洲祖母：</strong> 她的後裔遍佈全歐洲王室，幾乎統治了整個歐陸。</li>
+        <li><strong>聖誕節傳統：</strong> 是她與丈夫將聖誕樹引進英國，才有了我們今天的過節氣氛。</li>
+        <li><strong>工業革命推手：</strong> 她不僅是國家的象徵，更是進步與科技的守護神。</li>
+    </ul>
+
+    <div style="text-align: center;">
+        <a href="#" class="btn">探索更多皇室秘密</a>
+    </div>
+
+</div>
+
+<footer>
+    &copy; 2026 Victoria Magazine | Minimalist & Chic Edition
+</footer>
+
+</body>
+</html>

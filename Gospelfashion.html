@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gospel Style | 福音時尚專欄</title>
+    <style>
+        :root {
+            --black: #1a1a1a;
+            --pink: #f4d3d9;
+            --white: #ffffff;
+            --soft-grey: #f2f2f2;
+        }
+
+        body {
+            background-color: var(--white);
+            color: var(--black);
+            font-family: "PingFang TC", "serif";
+            margin: 0;
+            line-height: 1.8;
+        }
+
+        /* 導航選單 */
+        .main-nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 20px 0;
+            border-bottom: 1px solid var(--pink);
+            background: var(--white);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .main-nav a {
+            text-decoration: none;
+            color: var(--black);
+            font-size: 0.8rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            transition: 0.3s;
+        }
+
+        /* 專欄大標題 */
+        .hero-section {
+            padding: 80px 20px;
+            text-align: center;
+            background: linear-gradient(180deg, var(--white) 0%, var(--soft-grey) 100%);
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            margin: 0;
+            font-weight: 200;
+            letter-spacing: 10px;
+        }
+
+        .hero-section span {
+            color: #d48a94;
+            font-size: 0.9rem;
+            letter-spacing: 5px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* 時尚觀點區塊 */
+        .fashion-concept {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin: 40px 0;
+            border-left: 2px solid var(--black);
+            padding-left: 20px;
+        }
+
+        .concept-number {
+            font-size: 2rem;
+            color: var(--pink);
+            font-weight: bold;
+        }
+
+        /* 圖文排版 */
+        .style-card {
+            background: var(--soft-grey);
+            padding: 30px;
+            margin: 30px 0;
+            border-radius: 0px;
+            border-right: 8px solid var(--pink);
+        }
+
+        .highlight {
+            background: linear-gradient(transparent 70%, var(--pink) 0%);
+        }
+
+        footer {
+            text-align: center;
+            padding: 60px;
+            font-size: 0.8rem;
+            letter-spacing: 2px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="main-nav">
+    <a href="index.html">Home</a>
+    <a href="attitude.html">Attitude</a>
+    <a href="gospel-fashion.html" style="border-bottom: 1px solid var(--black);">Gospel</a>
+</nav>
+
+<div class="hero-section">
+    <span>EDITION // 03</span>
+    <h1>GRACE IN STYLE</h1>
+    <p>「內在的光，決定了外在的樣貌。」</p>
+</div>
+
+<div class="container">
+    
+    <div class="fashion-concept">
+        <div class="concept-number">01</div>
+        <div>
+            <h3>謙遜美學 (Modest Elegance)</h3>
+            <p>福音時尚的核心不在於遮掩，而在於<span class="highlight">尊貴</span>。選擇高品質的天然面料，如亞麻或真絲，展現出造物主賦予自然的原始質感。</p>
+        </div>
+    </div>
+
+    <div class="style-card">
+        <h3>「光」的配色方案</h3>
+        <p>以白色作為基調，象徵純潔與開端。穿插黑色的沉穩與粉色的溫柔，這不只是色彩的堆疊，而是一種平靜的宣告。</p>
+    </div>
+
+    <h2 style="text-align: center; margin-top: 60px;">穿上的不只是衣服，是使命</h2>
+    <p style="text-align: center; font-style: italic; color: #666;">
+        「你們的衣服要整潔，如同你們的生命。」
+    </p>
+
+    <p>當代福音時尚正經歷一場變革。設計師們開始拋棄繁瑣的裝飾，轉向極簡主義（Minimalism）。一件剪裁良好的白色長袍或黑色的羊毛大衣，就能傳遞出一種「不被世界左右」的自在感。</p>
+
+</div>
+
+<footer>
+    SOLI DEO GLORIA // FASHION WITH MISSION
+</footer>
+
+</body>
+</html>
